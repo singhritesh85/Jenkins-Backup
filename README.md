@@ -42,3 +42,10 @@ Go to **Manage Jenkins** > **ThinBackup** then click on Restore option as shown 
 
 ![image](https://github.com/user-attachments/assets/594aa3f2-beed-4318-a8d3-e49abe319227)
 
+After the Restore I am unable to see the deleted Jenkins Job for that I restarted the Jenkins as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/19f1e9ec-2e62-4ed1-8f0f-f74ac8554835)
+
+Restart the Jenkins
+
+![image](https://github.com/user-attachments/assets/606e29aa-677d-43ba-a121-a2f54a668b2f)
