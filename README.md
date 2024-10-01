@@ -30,3 +30,15 @@ The screenshot for backup directory before and after running the cronjob for Thi
 ![image](https://github.com/user-attachments/assets/8a4a3627-a9a5-4908-9ea7-83b9f7c73f66)
 ![image](https://github.com/user-attachments/assets/233573cf-6931-4ed8-8daa-5ca755dedeb1)
 
+At present I have one Jenkins Job with the name of test-1 I will delete this Jenkins Job and restore from ThinBackup. **After restoring from ThinBackup restart the Jenkins.** Then you will find the deleted Jenkins Job.
+
+![image](https://github.com/user-attachments/assets/7d7987ea-7bb4-4a92-a6fc-db2bdb1f919b)
+
+Now I delete the test-1 Jenkins Job as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/81edf709-b52e-45c1-b693-e937383cf314)
+
+Go to **Manage Jenkins** > **ThinBackup** then click on Restore option as shown in the screenshot attached below. Restore from the available Backup option as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/594aa3f2-beed-4318-a8d3-e49abe319227)
+
