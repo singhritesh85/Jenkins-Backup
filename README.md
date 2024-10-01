@@ -62,3 +62,47 @@ For periodic backup, installation of Jenkins plugin Periodic Backup has been don
 
 ![image](https://github.com/user-attachments/assets/39c49c0c-6676-419b-a1fb-cb1fe28b34d6)
 
+**Backup Location**
+(a) Amazon S3
+
+(b) LocalDirectory
+
+**(a) Amazon S3**
+
+create a temporary directory and change its ownership as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/236687cd-4f82-4675-839e-d393d792e15d)
+
+Create an Amazon S3 Bucket as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/a6d14832-2c40-4498-9261-ea57f7090b1a)
+
+Create a An IAM User with Access Key and Secret Key which has sufficient privileges to access S3 bucket.
+
+Do the configuration for Periodic backup with backup location as Amazon S3 as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/c55103d2-6801-434e-99fe-d3e4eaf524f3)
+![image](https://github.com/user-attachments/assets/b2495542-9b2f-41e1-9de6-c25d08324419)
+![image](https://github.com/user-attachments/assets/84c3c881-ea8e-43b2-b94b-0b9599865806)
+![image](https://github.com/user-attachments/assets/42071511-67a1-4138-aa89-6e0053a388ee)
+
+After the cron job run as per the scheduled time as shown in the screenshot attached above the backup will be availabe in the S3 bucket as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/e04c0f49-cb11-4d6d-869a-84eecb3e9fd8)
+![image](https://github.com/user-attachments/assets/4b310dbc-73a1-44d0-93e6-5e73adefc268)
+
+Before taking the backup there was a jenkins job with the name of test-1 was present but after backup I deleted the test-1 jenkins job as shown in the below screenshots.
+
+![image](https://github.com/user-attachments/assets/a7eb1719-f4c1-4f49-b9de-f87eec5f31e5)
+![image](https://github.com/user-attachments/assets/33c2fef7-df72-4fff-bbd8-08cbb767a454)
+
+Now for Restoration of backup follow the steps as written below.
+
+![image](https://github.com/user-attachments/assets/5a6a1d9a-dcf1-4937-b6bd-881dac4bd634)
+![image](https://github.com/user-attachments/assets/e96674d9-4965-431c-acae-e3c3e14e54e2)
+![image](https://github.com/user-attachments/assets/b7538228-4b6a-40a4-bea4-ce7795e828d6)
+![image](https://github.com/user-attachments/assets/ce0fd74d-2386-4177-8a47-a09c7218e527)
+
+Finally you will find the same jenkins job test-1 as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/22bf9e25-ee64-496a-8b3a-09b20bd2857a)
