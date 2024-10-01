@@ -63,6 +63,7 @@ For periodic backup, installation of Jenkins plugin Periodic Backup has been don
 ![image](https://github.com/user-attachments/assets/39c49c0c-6676-419b-a1fb-cb1fe28b34d6)
 
 **Backup Location**
+
 (a) Amazon S3
 
 (b) LocalDirectory
@@ -109,3 +110,5 @@ Now for Restoration of backup follow the steps as written below.
 Finally you will find the same jenkins job test-1 as shown in the screenshot attached below.
 
 ![image](https://github.com/user-attachments/assets/22bf9e25-ee64-496a-8b3a-09b20bd2857a)
+
+**(b) LocalDirectory**
