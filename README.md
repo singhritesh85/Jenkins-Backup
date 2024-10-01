@@ -16,4 +16,17 @@ Created backup direcitory and changed the owner and group for the directory as s
 ![image](https://github.com/user-attachments/assets/f0352b3b-f1bf-428e-aa89-39f014735306)
 ![image](https://github.com/user-attachments/assets/634c9692-be00-46a8-be89-d1b5c932a24f)
 
+Go to **Manage Jenkins** > **System**. Then go to ThinBackup Configuration as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/e1d62758-2a97-4248-ae7e-a43000d559ba)
+![image](https://github.com/user-attachments/assets/bd3e82cc-c857-4c81-8247-cfac9d55e5b2)
+
+In backup schedule for Full and differential backup cron job I used 9:10 AM UTC daily for backup. For the first time if no Full backup present then it will create it and from the next time onwards it will create the differential backup. In configuration I checked the option for **cleanup differential backups** and **Move old backups to zip files.** Which denotes the differential backup is removed and it will be removed before zipping happens when hence zip files contain no differential backup.
+
+For **Max number of backup sets** I used the value 30 which means for one month I keep the backup and whenever a new backup will be generated the oldest one will be discarded.
+
+The screenshot for backup directory before and after running the cronjob for ThinBackup is as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/8a4a3627-a9a5-4908-9ea7-83b9f7c73f66)
+![image](https://github.com/user-attachments/assets/233573cf-6931-4ed8-8daa-5ca755dedeb1)
 
