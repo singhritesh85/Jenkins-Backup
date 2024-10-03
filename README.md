@@ -82,12 +82,12 @@ Create a An IAM User with Access Key and Secret Key which has sufficient privile
 
 Do the configuration for Periodic backup with backup location as Amazon S3 as shown in the screenshot attached below.
 
-![image](https://github.com/user-attachments/assets/c55103d2-6801-434e-99fe-d3e4eaf524f3)
+![image](https://github.com/user-attachments/assets/71a2c71e-1830-42ad-a34b-dfb035eb9665)
 ![image](https://github.com/user-attachments/assets/b2495542-9b2f-41e1-9de6-c25d08324419)
 ![image](https://github.com/user-attachments/assets/84c3c881-ea8e-43b2-b94b-0b9599865806)
 ![image](https://github.com/user-attachments/assets/42071511-67a1-4138-aa89-6e0053a388ee)
 
-Backup is scheduled at 11:00 AM UTC daily as shown in the screenshot attached below. Daily one backup and total 30 backups will be stored, backup older than 30 days will be discarded.
+Backup is scheduled at 10:23 AM UTC daily as shown in the screenshot attached below. Daily one backup and total 30 backups will be stored, backup older than 30 days will be discarded.
 
 After the cron job run as per the scheduled time as shown in the screenshot attached above the backup will be availabe in the S3 bucket as shown in the screenshot attached below.
 
