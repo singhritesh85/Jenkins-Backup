@@ -157,4 +157,10 @@ And Restore from the backup as shown from the screenshot attached below.
 
 The backup has been done as confirmed from the below screenshot.
 
-![image](https://github.com/user-attachments/assets/bc3564db-bf02-4758-adfb-e9b4494f7774)
+![image](https://github.com/user-attachments/assets/386c8d95-b7fb-4b1e-8253-8c029214969b)
+![image](https://github.com/user-attachments/assets/ec3f6855-7fbd-44e7-8b8a-6e92da5af4aa)
+
+Finally we are able to see the deleted Jenkins Job and Builds as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/ce0c3330-5752-4580-a9ea-8245e6e179af)
+![image](https://github.com/user-attachments/assets/249f2a09-00ce-49b7-a1c4-c0f5807849d5)
