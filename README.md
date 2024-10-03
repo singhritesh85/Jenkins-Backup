@@ -72,7 +72,7 @@ For periodic backup, installation of Jenkins plugin Periodic Backup has been don
 
 create a temporary directory and change its ownership as shown in the screenshot attached below.
 
-![image](https://github.com/user-attachments/assets/236687cd-4f82-4675-839e-d393d792e15d)
+![image](https://github.com/user-attachments/assets/ee4714c9-8d12-45f2-b81e-f56dbca53a06)
 
 Create an Amazon S3 Bucket as shown in the screenshot attached below.
 
