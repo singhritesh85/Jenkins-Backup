@@ -92,7 +92,7 @@ Backup is scheduled at 10:23 AM UTC daily as shown in the screenshot attached be
 After the cron job run as per the scheduled time as shown in the screenshot attached above the backup will be availabe in the S3 bucket as shown in the screenshot attached below.
 
 ![image](https://github.com/user-attachments/assets/e04c0f49-cb11-4d6d-869a-84eecb3e9fd8)
-![image](https://github.com/user-attachments/assets/4b310dbc-73a1-44d0-93e6-5e73adefc268)
+![image](https://github.com/user-attachments/assets/12bde5bf-9520-4c1a-adb5-fa103c1e437e)
 
 Before taking the backup there was a jenkins job with the name of test-1 was present but after backup I deleted the test-1 jenkins job as shown in the below screenshots.
 
@@ -101,11 +101,14 @@ Before taking the backup there was a jenkins job with the name of test-1 was pre
 
 Now for Restoration of backup follow the steps as written below.
 
-![image](https://github.com/user-attachments/assets/537b98ba-9b37-403a-a7b3-952b4f2cda6d)
-![image](https://github.com/user-attachments/assets/5a6a1d9a-dcf1-4937-b6bd-881dac4bd634)
-![image](https://github.com/user-attachments/assets/e96674d9-4965-431c-acae-e3c3e14e54e2)
-![image](https://github.com/user-attachments/assets/b7538228-4b6a-40a4-bea4-ce7795e828d6)
-![image](https://github.com/user-attachments/assets/ce0fd74d-2386-4177-8a47-a09c7218e527)
+Go to **Manage Jenkins** > **Periodic Backup Manager** and restore as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/20834d92-175b-4693-95f6-e9fef1441d02)
+
+Checked the log and got verified that restoration has benn done.
+
+![image](https://github.com/user-attachments/assets/943b9934-da1c-41f6-82fb-624647713698)
+![image](https://github.com/user-attachments/assets/9a8eebbf-2fe7-468a-96cb-62e4f0a3d6f5)
 
 Finally you will find the same jenkins job test-1 as shown in the screenshot attached below.
 
