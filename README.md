@@ -147,7 +147,7 @@ Backup has been created at 06:05 AM UTC as shown in the screenshot attached belo
 Before running the Backup there was one Jenkins Job with the name test-1 and five builds as shown in the screenshot attached below.
 
 ![image](https://github.com/user-attachments/assets/9b556874-f1c2-47f7-ba7b-2d56039bf68e)
-![image](https://github.com/user-attachments/assets/94033cbd-f745-4f28-a0db-99fc0a62ebf4)
+![image](https://github.com/user-attachments/assets/551c5dfd-9d79-44c5-952d-9c75ea93721d)
 
 Now I deleted the Jenkins Job with the name test-1 as shown in the screenshot attached below.
 
