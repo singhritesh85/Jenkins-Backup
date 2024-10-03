@@ -136,4 +136,23 @@ Periodic backup will be taken daily at 06:05 AM daily and only 30 days backup wi
 Backup has been created at 06:05 AM UTC as shown in the screenshot attached below.
 
 ![image](https://github.com/user-attachments/assets/c0b05360-a38d-4f70-b7b1-abb50d64e77b)
+
 ![image](https://github.com/user-attachments/assets/353ad8ab-7b7c-4e14-b1f6-659bdca2a703)
+
+Befor running the Backup there was one Jenkins Job with the name test-1 and two builds as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/9b556874-f1c2-47f7-ba7b-2d56039bf68e)
+![image](https://github.com/user-attachments/assets/94033cbd-f745-4f28-a0db-99fc0a62ebf4)
+
+Now I deleted the Jenkins Job with the name test-1 as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/2aace4f9-220f-48e4-be96-9ad1895cdf22)
+
+And Restore from the backup as shown from the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/7a51613a-5c27-4957-9721-84c853aeb197)
+![image](https://github.com/user-attachments/assets/748f9389-5989-4815-8304-5731694d0bbb)
+
+The backup has been done as confirmed from the below screenshot.
+
+![image](https://github.com/user-attachments/assets/bc3564db-bf02-4758-adfb-e9b4494f7774)
