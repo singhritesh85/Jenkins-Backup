@@ -112,3 +112,28 @@ Finally you will find the same jenkins job test-1 as shown in the screenshot att
 ![image](https://github.com/user-attachments/assets/22bf9e25-ee64-496a-8b3a-09b20bd2857a)
 
 **(b) LocalDirectory**
+
+Install the plugin for periodic backup as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/c9a53907-c36a-457c-9d8a-77ca39cab8d0)
+
+To configure periodic backup in Jenkins do the configuration in Jenkins after installation of periodic backup plugin as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/243b80fe-1e71-47c9-9d9d-a3b563db21db)
+
+Before proceeding further my first Aim is to create the temporary directory /var/lib/jenkins/tmp, backup directory /opt/jenkins-backup and change it's ownership as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/7d58f15a-ecdc-4621-be80-75f63a23ccb5)
+
+Configuration for Periodic Backup Manager is as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/d2aadb53-6a63-4ab2-a831-108100afcad7)
+![image](https://github.com/user-attachments/assets/8701baa3-a20e-4674-a7d2-ba9c83fc12e3)
+![image](https://github.com/user-attachments/assets/617a1a5c-73b3-4ba0-a999-e115abd1e57d)
+
+Periodic backup will be taken daily at 06:05 AM daily and only 30 days backup will be stored locally, if a new backup tar file will be generated then oldest backup will be discarded.
+
+Backup has been created at 06:05 AM UTC as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/c0b05360-a38d-4f70-b7b1-abb50d64e77b)
+![image](https://github.com/user-attachments/assets/353ad8ab-7b7c-4e14-b1f6-659bdca2a703)
