@@ -125,7 +125,7 @@ Before proceeding further my first Aim is to create the temporary directory /opt
 
 ![image](https://github.com/user-attachments/assets/4bda641d-8f55-476b-8e15-229254dde8c0)
 ![image](https://github.com/user-attachments/assets/4e1e3e1d-69e4-4602-8498-5c95970ffcbd)
-![image](https://github.com/user-attachments/assets/7d58f15a-ecdc-4621-be80-75f63a23ccb5)
+![image](https://github.com/user-attachments/assets/c0ea7b7d-c7e1-4730-812a-efa1af339161)
 
 Configuration for Periodic Backup Manager is as shown in the screenshot attached below.
 
